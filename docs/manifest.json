@@ -1,0 +1,27 @@
+{
+    "name": "SVG Creator from Image",
+    "short_name": "SVG Creator",
+    "description": "Convert images to SVG directly in your browser",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23007bff' rx='20'/><text x='50' y='65' font-size='50' text-anchor='middle' fill='white'>🎨</text></svg>",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23007bff' rx='20'/><text x='50' y='65' font-size='50' text-anchor='middle' fill='white'>🎨</text></svg>",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["utilities", "productivity", "graphics"],
+    "lang": "en",
+    "dir": "ltr"
+}
