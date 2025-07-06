@@ -1,0 +1,38 @@
+{
+  "name": "svg-creator-from-image",
+  "version": "1.0.0",
+  "description": "Convert images to SVG directly in your browser. No server required.",
+  "main": "docs/index.html",
+  "scripts": {
+    "start": "cd docs && python -m http.server 8000",
+    "serve": "cd docs && npx serve .",
+    "dev": "cd docs && npx serve . --single",
+    "test": "echo \"No tests specified\" && exit 0",
+    "build": "echo \"No build process required\" && exit 0"
+  },
+  "keywords": [
+    "svg",
+    "image",
+    "converter",
+    "browser",
+    "client-side",
+    "pwa",
+    "canvas",
+    "vector"
+  ],
+  "author": "jajera",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jajera/image-to-svg-webapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jajera/image-to-svg-webapp/issues"
+  },
+  "homepage": "https://jajera.github.io/image-to-svg-webapp/",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
